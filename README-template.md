@@ -84,10 +84,12 @@ a. for desktop view :
 b. for mobile view:
 ```css
 .result-section {
- z-index: 2;
- margin: 0;
+  z-index: 2;
+  margin: 0;
   top: -92px;
   left: 11px;
+  height: calc(100vh - 317px);
+  width: 101vw;
 }
 ```
 4.Applying an inside box-shadow for a distinctive effect: 
@@ -100,10 +102,10 @@ b. for mobile view:
 5. Aligning and centering text with its icon while creating space between them:
 ```css
 .reaction-section p {
-display: inline-block; 
-margin-left: 10px;
-padding-top: 0.5em;
-padding-bottom: 0.5em;
+  display: inline-block; 
+  margin-left: 10px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 ```
 
@@ -125,7 +127,7 @@ html, body {
         top: -117px;
         margin-bottom: -119px;
         margin-left: 6px;
-        height: calc(100vh - 335px);
+        height: calc(100vh - 303px);
         width: 108vw;
 }
 ```
