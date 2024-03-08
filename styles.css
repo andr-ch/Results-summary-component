@@ -261,11 +261,12 @@ footer {
         font-weight: 600;
     }
 
-  body, html {
-        height: 100%;
-        overflow: hidden;
-  }   
-
+    html, body {
+       overflow: hidden; /* Prevent horizontal overflow */
+        margin: 0;
+        padding: 0;
+    }
+  
     h2 {
         font-size: larger;
         margin-bottom: 26px;
