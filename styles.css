@@ -30,7 +30,12 @@ h2 {
 }
 
 .attribution {
-    margin: 32px auto auto 812px;
+    position: fixed;
+    bottom: 160px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 }
 
 .content {
