@@ -37,16 +37,6 @@ footer {
     text-align: center;
 }
 
-/* Adjustments for mobile devices */
-@media (max-width: 767px) {
-    .footer {
-        /* Adjust margin or padding as needed */
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-
 .content {
     display: flex; /* Flexbox layout: Displays children in a flexible container */
     flex-wrap: wrap; /* Allows wrapping of flex items within the container */
@@ -273,7 +263,7 @@ footer {
     }
 
     html, body {
-        overflow-x: hidden; /* Prevent horizontal overflow */
+        overflow: hidden; /* Prevent horizontal overflow */
         margin: 0;
         padding: 0;
     }
@@ -387,15 +377,6 @@ footer {
         font-weight: bold;
         margin-bottom: 25px;
         margin-top: 116px;
-    }
-
-    /* The navigation bar */
-    .navbar {  
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
     }    
 }
 
@@ -410,5 +391,14 @@ footer {
 @media only screen and (max-width: 768px) {
     footer {
       display: none; /* Hides the footer */
+    }
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 767px) {
+    .footer {
+        /* Adjust margin or padding as needed */
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
