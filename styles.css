@@ -1,0 +1,392 @@
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+button {
+    color: #F8F8FF ;
+    background-color:#2D364E;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 28px;
+    width: 284px;
+    height: 53px;
+}
+
+
+button:hover {
+    background-color:#483CC7;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    color:#F8F8FF;
+    cursor: pointer; /* Pointer/hand icon */
+    font-weight: bolder; /*makes the text bold when hovering on it*/ 
+}
+
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 1.375rem;
+    color: #333c5a;
+}
+
+.attribution {
+    margin: 32px auto auto 812px;
+}
+
+.content {
+    display: flex; /* Flexbox layout: Displays children in a flexible container */
+    flex-wrap: wrap; /* Allows wrapping of flex items within the container */
+    align-items: flex-end; /* Aligns flex items along the cross axis to the bottom */
+    justify-content: center; /* Centers flex items along the main axis */
+}
+
+
+/*reaction-section*/
+.brief-result-text h1 {
+    color: #F8F8FF;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.brief-result-text p {
+    color: #c1bfff;
+    font-weight: 500;
+    margin: 34px;
+    margin-top: 17px;
+    
+}
+
+.circle-txt-top {
+    color: #FFFAFA;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-bottom: 0;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.circle-txt-bottom {
+    color: #8479FF;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.circular {
+    height: 200px;
+    width: 200px;
+    background-color: #4825E1;
+    border-radius: 50%;
+    display: inline-block; /* Inline-block: Allows inline placement with text, retaining block properties */
+}
+
+.result-section {
+   /* background-color: rgb(29, 128, 158); */
+    background-color: #4E2EE5;
+    margin-top: 136px;
+    z-index: 1; /* Establishes stacking order -  appear behind other elements with higher z-index values */
+    top: 0; /* Adjusts vertical position */
+    left: 54px; /* Adjusts horizontal position */
+}
+  
+.text-1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 26px;
+}
+ 
+ .tittle-1 {
+     font-size: 1.375rem;
+     font-weight: bold;
+    /* color: rgb(237 220 220); */
+     color:  #CEC2FE;
+     margin-bottom: 40px;
+}
+ 
+ .text-2 {
+     margin-left: 78px;
+     margin-top: 42px;
+}
+ 
+ .text-1, .text-2 {
+     margin-right: 26px;
+}
+ 
+
+
+.result-section,
+.summary-section {
+    width: 22.9375rem; /* 367px / 16px = 22.9375rem */
+    height: 31.8125rem; /* 509px / 16px = 31.8125rem */
+    border-radius: 34px;
+    position: relative; /* Relative positioning: Establishes a positioned context for child elements */
+}
+
+/*summary-section*/
+.summary-section {
+    width: 24.9375rem;
+    background-color: aliceblue; 
+}
+
+/* summary-section: description */
+.additional-class {
+    color: #9a9ab7;
+    font-weight: 600;
+}
+
+.icon {
+    position: relative;
+    top: 4px;
+}   
+
+.reaction-section, .memory-section, .verbal-section, .visual-section {
+    border-radius: 15px;
+    height: 53px;
+    margin-bottom: 19px;
+    width: 284px;
+}
+
+
+.reaction-content, .memory-content, .verbal-content, .visual-content {
+    margin-left: 18px;
+    height: 0;
+    position: relative;
+    bottom: 7px;
+}
+
+.reaction-values, .memory-values, .verbal-values, .visual-values {
+    color:#202b51;
+}
+
+
+/*summary-section: reaction section*/
+.reaction-section {
+   /* background-color: hsl(0deg 30.15% 76.54%);*/
+   background-color: #FF5757;
+   box-shadow: inset 5em 5em #ffe9e9;
+}
+
+.reaction-section p {
+    color: hsl(0, 100%, 67%);
+    display: inline-block; /* Renders the element as an inline-level block container */
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.reaction-values {
+    margin-left: 89px;
+    margin-right: 12px;
+}
+
+/*summary-section: memory section*/
+.memory-section {
+   /* background-color:hsl(39deg 35.59% 69.67%); */
+   background-color: #FFC861;
+   box-shadow: inset 5em 5em #fff3de;
+}
+
+.memory-section p {
+    color: hsl(39, 100%, 56%);
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.memory-values {
+    margin-left: 92px;
+    margin-right: 12px;
+}
+
+/*summary-section: verbal section*/
+.verbal-section {
+    /*  background-color: hsl(166deg 44.03% 66.5%);*/
+    background-color: #00D6A8;
+    box-shadow: inset 5em 5em #d5f7f7;
+}
+
+.verbal-section p {
+    color: hsl(166, 100%, 37%);
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+
+.verbal-values {
+    margin-left: 106px;
+    margin-right: 12px;
+}
+
+
+/*summary-section: visual section*/
+.visual-section {
+    /* background-color: hsl(234, 50%, 75%); */
+    background-color: #A3ABE6;
+    box-shadow: inset 5em 5em #ebecfb;
+}
+
+.visual-section p {
+    color: hsl(234, 85%, 45%);
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.visual-values {
+    margin-left: 108px;
+    margin-right: 12px;
+}
+
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+    button {
+        margin-top: 12px;
+        width: 310px;
+        height: 56px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    html, body {
+        overflow-x: hidden; /* Prevent horizontal overflow */
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: larger;
+        margin-bottom: 26px;
+    }
+
+    .result-section {
+        z-index: 2; /* positions the element above elements with lower z-index values, but still below elements with higher values*/
+        margin: 0;
+        top: -92px;
+        left: 11px;
+        height: calc(100vh - 357px);
+        width: 101vw;
+    }
+    
+
+    .summary-section {
+        z-index: 1;
+        position: relative;
+        border-radius: 0px;
+        top: -117px;
+        margin-bottom: -119px;
+        margin-left: 6px;
+        height: calc(100vh - 335px); /* Sets the height of the element to 100% of the viewport height minus 335 pixels */
+        width: 108vw;
+    }
+
+    .brief-result-text h1 {
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 12px;
+    }
+
+    .brief-result-text p {
+        margin: 34px;
+        margin-top: 0;
+    }
+
+    .circle-txt-top {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 29px;
+        margin-bottom: 0;
+        margin-right: 33px;
+        margin-left: 33px;
+    }
+
+    .circle-txt-bottom {
+        margin-top: 4px;
+        margin-right: 29px;
+        margin-left: 28px;
+    }
+
+    .circular {
+        height: 139px;
+        width: 139px;
+    }
+
+    .reaction-section, .memory-section, .verbal-section, .visual-section {
+        border-radius: 15px;
+        width: 310px;
+        height: 50px;
+        margin-bottom: 19px;
+    }
+
+    .reaction-section p, .memory-section p, .verbal-section p, .visual-section p {
+        font-size: 15px;
+        margin-top: 19px;
+    }
+
+    .reaction-content, .memory-content, .verbal-content, .visual-content {
+        margin-left: 16px;
+        bottom: 10px;
+    }
+
+    .reaction-values, .memory-values, .verbal-values, .visual-values {
+        margin-right: 12px;
+    }
+
+    .reaction-values {
+        margin-left: 123px;
+    }
+
+    .memory-values {
+        margin-left: 126px;
+    }
+
+    .verbal-values {
+        margin-left: 138px;
+    }
+
+    .visual-values {
+        margin-left: 142px;
+    }
+
+    .text-1 {
+        margin-top: 100px;
+    }
+
+    .text-2 {
+        margin-top: 53px;
+        margin-left: 52px;
+    }
+
+    .tittle-1 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 25px;
+        margin-top: 116px;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Chrome-specific CSS rules */
+    body {
+        margin-left: -25px; /* Example adjustment for Chrome */
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    footer {
+      display: none; /* Hides the footer */
+    }
+}
