@@ -262,7 +262,7 @@ footer {
     }
 
     html, body {
-       overflow: hidden; /* Prevent horizontal overflow */
+        overflow-x: hidden; /* Prevent horizontal overflow */
         margin: 0;
         padding: 0;
     }
