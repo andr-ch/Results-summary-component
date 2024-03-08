@@ -112,23 +112,23 @@ b. for mobile view:
 6.Starting content at the edge of the screen by removing margins and padding from HTML and body elements, and preventing horizontal overflow for mobile view:
 ```css
 html, body {
-        overflow-x: hidden; /* Prevent horizontal overflow */
-        margin: 0;
-        padding: 0;
+ overflow-x: hidden; /* Prevent horizontal overflow */
+ margin: 0;
+ padding: 0;
     }
 ```
 
 7. Positioning and styling a container to eliminate extra space around and below it, achieving an overlapping effect with other elements:
 ```css
 .summary-section {
-        z-index: 1;
-        position: relative;
-        border-radius: 0px;
-        top: -117px;
-        margin-bottom: -119px;
-        margin-left: 6px;
-        height: calc(100vh - 303px);
-        width: 108vw;
+  z-index: 1;
+  position: relative;
+  border-radius: 0px;
+  top: -117px;
+  margin-bottom: -119px;
+  margin-left: 6px;
+  height: calc(100vh - 303px);
+  width: 108vw;
 }
 ```
 
