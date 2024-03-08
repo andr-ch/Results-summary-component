@@ -29,14 +29,23 @@ h2 {
     color: #333c5a;
 }
 
-.attribution {
-    position: fixed;
-    left: 0;
-    width: 100%;
+footer {
+    position: relative; /* Use relative positioning */
+    /* Add any other styling for the footer */
+    background-color: #f8f8f8;
     padding: 20px;
     text-align: center;
-    z-index: 999; /* Ensure it appears above other content */
 }
+
+/* Adjustments for mobile devices */
+@media (max-width: 767px) {
+    .footer {
+        /* Adjust margin or padding as needed */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 
 .content {
     display: flex; /* Flexbox layout: Displays children in a flexible container */
@@ -253,15 +262,6 @@ h2 {
     margin-right: 12px;
 }
 
-/* The navigation bar */
-.navbar {  
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-
 /* Media query for mobile view */
 @media (max-width: 767px) {
     button {
@@ -388,6 +388,15 @@ h2 {
         margin-bottom: 25px;
         margin-top: 116px;
     }
+
+    /* The navigation bar */
+    .navbar {  
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    }    
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
