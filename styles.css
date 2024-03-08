@@ -273,11 +273,11 @@ footer {
     }
 
     .result-section {
-        z-index: 2; /* positions the element above elements with lower z-index values, but still below elements with higher values*/
+        z-index: 2;
         margin: 0;
         top: -92px;
         left: 11px;
-        height: calc(100vh - 357px);
+        height: calc(100vh - 317px);
         width: 101vw;
     }
     
@@ -289,7 +289,7 @@ footer {
         top: -117px;
         margin-bottom: -119px;
         margin-left: 6px;
-        height: calc(100vh - 335px); /* Sets the height of the element to 100% of the viewport height minus 335 pixels */
+        height: calc(100vh - 303px);
         width: 108vw;
     }
 
