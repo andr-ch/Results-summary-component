@@ -261,7 +261,7 @@ footer {
         font-weight: 600;
     }
 
-   html body {
+   html, body {
         position: fixed;
         width: 100%;
     }
