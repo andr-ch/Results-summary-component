@@ -261,10 +261,9 @@ footer {
         font-weight: 600;
     }
 
-   html, body {
-        position: fixed;
-        width: 100%;
-    }
+  body, html {
+        height: 100%;
+        overflow: hidden;
 
     h2 {
         font-size: larger;
