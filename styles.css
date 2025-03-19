@@ -394,12 +394,3 @@ footer {
     }
 }
 
-/* Adjustments for mobile devices */
-@media (max-width: 767px) {
-    .footer {
-        /* Adjust margin or padding as needed */
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: none;
-    }
-}
