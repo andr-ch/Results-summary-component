@@ -34,6 +34,7 @@ footer {
     /* Add any other styling for the footer */
     padding: 20px;
     text-align: center;
+    display: none;
 }
 
 .content {
@@ -399,5 +400,6 @@ footer {
         /* Adjust margin or padding as needed */
         margin-top: 20px;
         margin-bottom: 20px;
+        display: none;
     }
 }
